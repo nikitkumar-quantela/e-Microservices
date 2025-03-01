@@ -11,6 +11,12 @@ console.log("Hi, This is Demo.")
 console.log("Hi, This is Demo2.")
 console.log("Hi, This is Demo3.")
 
+
+
+console.log("Hi, This is Demo.")
+console.log("Hi, This is Demo2.")
+console.log("Hi, This is Demo3.")
+
 export const create = async (req, res) => {
   const newData = await MaService.create(req.body);
   res.json(newData);
